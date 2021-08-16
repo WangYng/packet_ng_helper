@@ -1,0 +1,27 @@
+name: packet_ng_helper
+description: packet_ng for Flutter.
+version: 0.0.1
+homepage: https://github.com/WangYng
+repository: https://github.com/WangYng/packet_ng_helper
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# The following section is specific to Flutter.
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: io.github.wangyng.packet_ng_helper
+        pluginClass: PacketNgHelperPlugin
+      ios:
+        pluginClass: PacketNgHelperPlugin
