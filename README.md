@@ -8,7 +8,7 @@ The [packet_ng](https://github.com/mcxiaoke/packer-ng-plugin) Api for Flutter.
 
 ```yaml
 dependencies:
-  packet_ng_helper: ^0.0.1
+  packet_ng_helper: ^0.0.2
 ```
 
 2. Install it

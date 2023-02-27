@@ -2,11 +2,15 @@
 //  PacketNgHelperPlugin.m
 //  Pods
 //
-//  Created by 汪洋 on 2021/8/16.
+//  Created by 汪洋 on 2023/2/27.
 //
 
 #import "PacketNgHelperPlugin.h"
 #import "PacketNgHelperEventSink.h"
+
+@interface PacketNgHelperPlugin()
+
+@end
 
 @implementation PacketNgHelperPlugin
 

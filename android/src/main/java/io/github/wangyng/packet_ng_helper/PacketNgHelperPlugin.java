@@ -5,7 +5,9 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 
 import java.util.HashMap;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 import io.flutter.embedding.engine.plugins.FlutterPlugin;
 import com.mcxiaoke.packer.helper.PackerNg;
@@ -26,7 +28,10 @@ public class PacketNgHelperPlugin implements FlutterPlugin, PacketNgHelperApi {
 
     @Override
     public String getMarketName(Context context) {
-        return PackerNg.getChannel(context);
+        String name = PackerNg.getChannel(context);
+        if (name == null) {
+            return "Android";
+        }
+        return name;
     }
-
-   }
+}

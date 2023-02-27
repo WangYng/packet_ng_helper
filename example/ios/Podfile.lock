@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - packet_ng_helper (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - packet_ng_helper (from `.symlinks/plugins/packet_ng_helper/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  packet_ng_helper:
+    :path: ".symlinks/plugins/packet_ng_helper/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  packet_ng_helper: 0d9ccdc4672641d4d9af90e760eb475af258fb74
+
+PODFILE CHECKSUM: 663715e941f9adb426e33bf9376914006f9ea95b
+
+COCOAPODS: 1.11.2
